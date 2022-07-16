@@ -760,13 +760,6 @@ global.dfail = (type, m, conn) => {
     if (msg) return m.reply(msg)
 }
 
-switch (command) {
-    case 'addusr':
-    case 'adduser': 
-        console.log(command)
-    break
-}
-
 let fs = require('fs')
 let chalk = require('chalk')
 let file = require.resolve(__filename)
